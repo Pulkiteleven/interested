@@ -48,7 +48,7 @@ class _splashState extends State<splash> {
         body: Stack(
           children: [
             circles(context),
-            textr(context, "interested"),
+            textr(context, "be one"),
 
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -61,7 +61,7 @@ class _splashState extends State<splash> {
                     Spacer(),
                   ],
                 ),
-                mainText("be one", secColor, 15.0, FontWeight.bold, 1),
+                // mainText("be one", secColor, 15.0, FontWeight.bold, 1),
 
               ],
             ),

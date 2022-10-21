@@ -214,6 +214,40 @@ Widget circlesleft(BuildContext context){
   );
 }
 
+Widget dynamicCorners(BuildContext context,IconData a){
+  return Stack(
+    clipBehavior: Clip.hardEdge, children: [
+    Container(
+      // margin: EdgeInsets.only(),
+
+      child:
+      Transform.translate(
+        offset: Offset(
+          MediaQuery.of(context).size.width - 200.0,
+          -100.0,
+        ),
+        child: Container(
+          child: Icon(a,color: bglight,size: 250.0,),
+        )
+      ),
+    ),
+    Container(
+      child:
+      Transform.translate(
+        offset: Offset(
+          -50,
+          MediaQuery.of(context).size.height - 250.0,
+        ),
+        child: Container(
+          child: Icon(a,color: bglight,size: 250.0,),
+        )
+      ),
+    ),
+
+  ],
+  );
+}
+
 
 Widget bottomIn(){
   return Container(
@@ -239,7 +273,7 @@ Widget textr(BuildContext context,String text){
       child:
       Transform.translate(
         offset: Offset(
-          10.0,
+          20.0,
           -100.0,
         ),
         child: Transform.rotate(
