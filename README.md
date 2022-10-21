@@ -1,16 +1,46 @@
 # interested
 
-A new Flutter project.
+A Flutter based Dating Application.
 
-## Getting Started
+## Maintainer
 
-This project is a starting point for a Flutter application.
+- [@Pulkiteleven](https://github.com/Pulkiteleven)
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Programming Language: Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Backend Service: Firebase
+
+## Running Tests
+
+To run tests, install [Android Studio](https://developer.android.com/studio) on your local device.
+Install and Setup [Git](https://git-scm.com/download/win) and [GitHub](https://github.com/) on your local device and remotely.
+
+## Run Locally
+
+Fork this project.
+
+```bash
+https://github.com/semikolan-co/interested
+```
+
+Clone the forked repository!
+
+## Contributing
+
+Contributions are always welcome for the HactoberFest 2022!
+  
+## Managed By
+
+This project is managed by the following companies:
+
+- Semikolan
+  
+## License
+
+[GNU GENERAL PUBLIC LICENSE](https://github.com/semikolan-co/interested/blob/master/LICENSE)
+  
+## Appendix
+
+This [README.md](https://github.com/semikolan-co/interested/blob/master/README.md) file is up to date.
