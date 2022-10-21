@@ -10,8 +10,8 @@ void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(MaterialApp(
-    // home: splash(),
-    home: enterMobile(),
+    home: splash(),
+    // home: enterMobile(),
   ));
 }
 
@@ -48,6 +48,8 @@ class _splashState extends State<splash> {
         body: Stack(
           children: [
             circles(context),
+            textr(context, "interested"),
+
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,

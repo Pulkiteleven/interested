@@ -37,7 +37,7 @@ class _enterMobileState extends State<enterMobile> {
             children: [
 
               circles(context),
-
+              // textr(context, "interested"),
               SingleChildScrollView(
                 padding: EdgeInsets.symmetric(horizontal: 30.0,vertical: 20.0),
                 child: Column(

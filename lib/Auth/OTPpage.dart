@@ -36,7 +36,7 @@ class _enterOTPState extends State<enterOTP> {
           child: Stack(
             children: [
 
-              circles(context),
+              circlesleft(context),
 
               SingleChildScrollView(
                 padding: EdgeInsets.symmetric(horizontal: 30.0,vertical: 20.0),

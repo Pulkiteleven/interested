@@ -46,6 +46,7 @@ AutoSizeText mainTextLines(String text, Color c, double size, FontWeight w,int l
   );
 }
 
+
 class loader extends StatelessWidget {
   const loader({Key? key}) : super(key: key);
 
@@ -177,6 +178,43 @@ Widget circles(BuildContext context){
   );
 }
 
+Widget circlesleft(BuildContext context){
+  return Stack(
+    clipBehavior: Clip.hardEdge, children: [
+    Container(
+      // margin: EdgeInsets.only(),
+
+      child:
+      Transform.translate(
+        offset: Offset(
+          MediaQuery.of(context).size.width - 200.0,
+          -120.0,
+        ),
+        child: CircleAvatar(
+          backgroundColor: bglight,
+          radius: 130.0,
+        ),
+      ),
+    ),
+    Container(
+      child:
+      Transform.translate(
+        offset: Offset(
+          -70,
+          MediaQuery.of(context).size.height - 200.0,
+        ),
+        child: CircleAvatar(
+          backgroundColor: bglight,
+          radius: 130.0,
+        ),
+      ),
+    ),
+
+  ],
+  );
+}
+
+
 Widget bottomIn(){
   return Container(
     alignment: Alignment.bottomCenter,
@@ -191,4 +229,42 @@ Widget bottomIn(){
     ),
   );
 }
+
+Widget textr(BuildContext context,String text){
+  return Stack(
+    fit: StackFit.expand,
+    clipBehavior: Clip.hardEdge, children: [
+    Container(
+      // margin: EdgeInsets.only(),
+      child:
+      Transform.translate(
+        offset: Offset(
+          10.0,
+          -100.0,
+        ),
+        child: Transform.rotate(
+          angle: 0.2,
+          child: Wrap(
+            children: [
+              mainText(text, bglight, 100.0, FontWeight.normal, 1),
+              mainText(text, bglight, 100.0, FontWeight.normal, 1),
+              mainText(text, bglight, 100.0, FontWeight.normal, 1),
+              mainText(text, bglight, 100.0, FontWeight.normal, 1),
+              mainText(text, bglight, 100.0, FontWeight.normal, 1),
+              mainText(text, bglight, 100.0, FontWeight.normal, 1),
+              mainText(text, bglight, 100.0, FontWeight.normal, 1),
+              mainText(text, bglight, 100.0, FontWeight.normal, 1),
+              mainText(text, bglight, 100.0, FontWeight.normal, 1),
+              mainText(text, bglight, 100.0, FontWeight.normal, 1),
+
+            ],
+          ),
+        )
+      ),
+    ),
+
+  ],
+  );
+}
+
 
