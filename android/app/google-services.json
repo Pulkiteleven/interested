@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "258961491636",
+    "project_id": "interested-f2e2e",
+    "storage_bucket": "interested-f2e2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258961491636:android:96672d2abca1809841b9e1",
+        "android_client_info": {
+          "package_name": "com.inertia.interested"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258961491636-83q4ebuohvvlkc3hb8ig49ib52lupb6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkLw7dFXw-2OJ_cajuEDQCfu3Chyl4ODM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258961491636-83q4ebuohvvlkc3hb8ig49ib52lupb6g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "258961491636-ohdu23606u0r484obqaieiru88s7tr1a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.inertia.interested"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
