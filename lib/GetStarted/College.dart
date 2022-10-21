@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:interested/GetStarted/Passions.dart';
 import 'package:interested/Usefull/Buttons.dart';
+import 'package:interested/Usefull/Functions.dart';
 
 import '../Usefull/colors.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -198,7 +200,7 @@ class _listItemsState extends State<listItems> {
                   side: BorderSide(color: mainColor,width: 2.0)))),
       onPressed: (){
         mainData['college'] = widget.title;
-        // navScreen(college(name: widget.name, city:widget.title), context, false);
+        navScreen(passions(data: mainData) ,context, false);
       },
     );
   }
