@@ -69,4 +69,8 @@ This project is managed by the following companies:
 ## Contributers
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/semikolan-co/interested/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=semikolan-co/interested" />
+</a>
+
 
